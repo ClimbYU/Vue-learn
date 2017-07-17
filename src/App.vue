@@ -3,7 +3,6 @@
 		<transition name="router-fade" mode="out-in">
 			<keep-alive>
 			    <router-view v-if="$route.meta.keepAlive"></router-view>
-        <div>测试git revert</div>
 			</keep-alive>
     	</transition>
     	<transition name="router-fade" mode="out-in">
@@ -15,7 +14,7 @@
 <script>
 
   	export default {
-
+    	
   	}
 
 </script>
